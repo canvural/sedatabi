@@ -1,0 +1,17 @@
+require "bundler"
+require "pp"
+Bundler.setup
+
+require 'sedatabi'
+
+argv = ARGV.dup
+
+# Version
+if argv.include?("-v") || argv.include?("--version")
+  require_relative "../lib/sedatabi/version"
+  puts "SedatAbi #{Sedatabi::VERSION}"
+  exit 0
+end
+
+app = Sedatabi::App.new
+app.start argv

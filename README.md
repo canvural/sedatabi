@@ -1,31 +1,35 @@
 # Sedatabi
 
-TODO: Write a gem description
+Sedat Abi bir gün herkes olacak!
 
-## Installation
+Bir resimdeki yüzleri bulup, Sedat Abi'nin yüzü ile değiştiren bir uygulama.
 
-Add this line to your application's Gemfile:
+## Kurulum
 
-```ruby
-gem 'sedatabi'
-```
+### Neler Lazım?
 
-And then execute:
+- OpenCV
+- ImageMagick
 
-    $ bundle
 
-Or install it yourself as:
 
     $ gem install sedatabi
 
-## Usage
+## Kullanım
 
-TODO: Write usage instructions here
+Argüman olarak bir resim yolu veya içinde resimler bulunan bir klasör yolu verebilirsiniz.
+Argüman vermeden çalıştırırsanız, Instagram'dan rastgele bir resim seçip onun üzerinde işlem yapacaktır.
 
-## Contributing
+    sedatabi resim.jpg
+    
+Sonuç:
 
-1. Fork it ( https://github.com/[my-github-username]/sedatabi/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+![Sedat Abi](http://i.imgur.com/i5z9THf.jpg)
+
+## Katkı Yapmak için
+
+1. `fork` yapın ( https://github.com/canvural/sedatabi/fork )
+2. Kendi `branch`’inizi yapın (`git checkout -b benim-eklerim`)
+3. Yaptıklarınızı `commit` edin (`git commit -am 'Yeni özellikler'`)
+4. `branch`’i `push` edin (`git push origin benim-eklerim`)
+5. Yeni bir **Pull Request** oluşturun!

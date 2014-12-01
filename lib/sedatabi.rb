@@ -34,6 +34,8 @@ module Sedatabi
           next
         end
 
+        output = File.basename file, '.jpg'
+
         detector.file = file
         coordinates = detector.detect_faces
 
@@ -52,9 +54,9 @@ module Sedatabi
           end
         end
 
-        first.write "#{Dir.pwd}/output.jpg"
+        first.write "#{Dir.pwd}/#{output}_s.jpg"
 
-        puts "#{Dir.pwd}/output.jpg oluşturuldu."
+        puts "#{Dir.pwd}/#{output}_s.jpg oluşturuldu."
       end
 
     end

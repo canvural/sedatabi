@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["canvural"]
   spec.email         = ["can9119@gmail.com"]
   spec.summary       = %q{Sedat Abi bir gün herkes olacak!}
-  spec.description   = %q{}
-  spec.homepage      = ""
+  spec.description   = %q{Bir resimdeki yüzleri bulup, Sedat Abi'nin yüzü ile değiştiren bir uygulama.}
+  spec.homepage      = "http://github.com/canvural/sedatabi"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -21,9 +21,9 @@ Gem::Specification.new do |spec|
   spec.requirements << 'OpenCV'
   spec.requirements << 'imagemagick'
 
-  spec.add_dependency "instagram"
-  spec.add_dependency "mini_magick"
-  spec.add_dependency "ruby-opencv"
+  spec.add_dependency "instagram", "~>1.1"
+  spec.add_dependency "mini_magick", "~> 3.8.1"
+  spec.add_dependency "ruby-opencv", "~> 0.0.13"
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"

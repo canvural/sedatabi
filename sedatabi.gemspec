@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "sedatabi"
   spec.version       = Sedatabi::VERSION
   spec.authors       = ["canvural"]
-  spec.email         = ["can9119@gmail.com"]
+  spec.email         = ["canvural@gosterge.net"]
   spec.summary       = %q{Sedat Abi bir gün herkes olacak!}
   spec.description   = %q{Bir resimdeki yüzleri bulup, Sedat Abi'nin yüzü ile değiştiren bir uygulama.}
   spec.homepage      = "http://github.com/canvural/sedatabi"
